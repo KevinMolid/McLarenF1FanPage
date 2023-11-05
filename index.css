@@ -113,14 +113,19 @@ header,
 
 .container {
   width: 90%;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+p {
+  max-width: 900px;
 }
 
 .main-image {
   display: block;
   width: 100%;
-  margin: 0 auto 1em; /* 32px */
+  max-width: 900px;
+  margin: 0 0 1em; /* 32px */
 }
 
 .section-two-image-container {
