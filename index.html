@@ -21,8 +21,8 @@
 				<!-- Site Navigation -->
 				<nav>
 					<ul>
-						<li><a href="#">Car</a></li>
-						<li><a href="#">Line-up</a></li>
+						<li><a href="#car">Car</a></li>
+						<li><a href="#lineup">Line-up</a></li>
 						<li><a href="#">Results</a></li>
 					</ul>
 				</nav>
@@ -30,7 +30,7 @@
         </header>
 
 	    <main>
-			<section class="section-one">
+			<section class="section-one" id="car">
 				<div class="container">
 					<h2>The MCL60: Celebrating 60 years in Formula 1</h2>
 					<img  src="images/MCL60-LN4-Side-7K.jpg" alt="Purple and silver sneakers" class="main-image">
@@ -46,7 +46,7 @@
 				</div>
 			</section>
 			
-			<section class="section-two">
+			<section class="section-two" id="lineup">
 				<div class="container">
 					<h2>The 2023 Driver Line-up</h2>
 					<div class="section-two-image-container">
@@ -118,8 +118,10 @@
 			</section>
 			
 			<footer>
-				<p>&copy; 2023 Unofficial McLaren fansite</p>
+				<p>&copy; <span id="year">2023</span> <a>Kevin Molid</a> - Unofficial McLaren Formula 1 Fansite</p>
 			</footer>
 	    </main>
+
+		<script src="index.js" type="module"></script>
     </body>
 </html>

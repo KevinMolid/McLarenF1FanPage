@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #2b283a;
   font-family: 'Roboto', sans-serif;
@@ -45,12 +49,14 @@ p {
 
 a {
   color: #ff8000;
-  text-decoration: underline dotted; 
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover, 
 a:active {
-  color: #4ad5ff;
+  text-decoration: underline;
 }
 
 .btn {
@@ -84,6 +90,7 @@ a:active {
 .btn:active {
   color: #111;
   background-color: #ff8000;
+  text-decoration: none;
 }
 
 /* ----- LAYOUT ----- */
@@ -175,7 +182,8 @@ p {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: #111;
 }
 
@@ -193,6 +201,7 @@ nav a {
 nav a:hover,
 nav a:focus {
   color: #ff8000;
+  text-decoration: none;
 }
 
 ul {
